@@ -1,0 +1,131 @@
+/* index.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Header styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.red-button {
+  background-color: #9e3030;
+  color: white;
+}
+
+/* Add New Game button styles */
+.header button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Collection styles */
+.styled-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.styled-table th,
+.styled-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.styled-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+/* Remove button styles */
+.remove-button {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Total game value styles */
+.total-value {
+  margin-top: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+/* Game form styles */
+.game-form-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.game-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.game-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.game-form button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.game-form button:hover {
+  background-color: #45a049;
+}
+
+.game-form button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.red-button {
+  background-color: #9e3030;
+  color: white;
+}
