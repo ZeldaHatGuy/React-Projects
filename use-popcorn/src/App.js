@@ -1,9 +1,6 @@
 import { useEffect, useState } from "react";
 import StarRating from "./StarRating";
 
-// # http://www.omdbapi.com/?apikey=[yourkey]&
-// fda28724
-
 function SearchBar({ query, setQuery }) {
   return (
     <input
